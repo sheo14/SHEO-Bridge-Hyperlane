@@ -5,7 +5,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
   tokens: [
     {
       chainName: 'arbitrum',
-      standard: 'TokenStandard.EvmHypCollateral',
+      standard: TokenStandard.EvmHypCollateral,
       decimals: 18,
       symbol: 'ARB',
       name: 'Arbitrum',
@@ -19,7 +19,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: 'base',
-      standard: 'TokenStandard.EvmHypSynthetic',
+      standard: TokenStandard.EvmHypSynthetic,
       decimals: 18,
       symbol: 'ARB',
       name: 'Base',
