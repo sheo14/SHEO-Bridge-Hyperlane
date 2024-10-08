@@ -19,7 +19,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: 'base',
-      standard: 'EvmHypSynthetic',
+      standard: 'TokenStandard.EvmHypSynthetic',
       decimals: 18,
       symbol: 'ARB',
       name: 'Base',
