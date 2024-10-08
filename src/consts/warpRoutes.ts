@@ -7,7 +7,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
   tokens: [
     {
       chainName: "arbitrum",
-      standard: "EvmHypCollateral",
+      standard: "TokenStandard.EvmHypCollateralFiat",
       decimals: 18,
       symbol: "ARB",
       name: "Arbitrum",
