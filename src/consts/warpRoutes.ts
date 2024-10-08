@@ -1,13 +1,11 @@
 import { WarpCoreConfig } from '@hyperlane-xyz/sdk';
 
 // A list of Warp Route token configs
-// These configs will be merged with the warp routes in the configured registry
-// The input here is typically the output of the Hyperlane CLI warp deploy command
 export const warpRouteConfigs: WarpCoreConfig = {
   tokens: [
     {
       chainName: "arbitrum",
-      standard: "TokenStandard.EvmHypCollateralFiat",
+      standard: "EvmCollateral" as any, // Forcer le typage si nécessaire
       decimals: 18,
       symbol: "ARB",
       name: "Arbitrum",
@@ -21,7 +19,7 @@ export const warpRouteConfigs: WarpCoreConfig = {
     },
     {
       chainName: "base",
-      standard: "EvmHypSynthetic",
+      standard: "EvmHypSynthetic", // Cette valeur semble déjà correcte
       decimals: 18,
       symbol: "ARB",
       name: "Base",
