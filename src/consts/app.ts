@@ -10,7 +10,7 @@ export const MAIN_FONT = Space_Grotesk({
 });
 export const APP_NAME = 'SHEO';
 export const APP_DESCRIPTION = 'Welcome to SHEO bridge';
-export const APP_URL = 'ui-hyperlane-git-main-sheos-projects.vercel.app?';
+export const APP_URL = 'ui-hyperlane.vercel.app';
 export const BRAND_COLOR = Color.primary;
 export const BACKGROUND_COLOR = Color.primary;
 export const BACKGROUND_IMAGE = 'url(/backgrounds/main.svg)';
